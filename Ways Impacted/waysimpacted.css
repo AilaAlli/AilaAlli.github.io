@@ -22,3 +22,8 @@
 .navbar a:hover {
     background-color: white;
 }
+
+.column{
+    column-count: 100px 3;
+
+}
