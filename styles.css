@@ -122,15 +122,15 @@ h2 {
   }
 
   .button1{
-    border-style: double;
+    border-style: solid;
     border-color: black;
-    border-width: large;
+    border-width: medium;
     font-family: serif;
     transition-duration: 0.4s;
     width: 120px;
     height: 50px;
     font-size: 15px;
-    background-color: #4F619B;
+    background-color:white;
 }
 
 .button1:hover {
