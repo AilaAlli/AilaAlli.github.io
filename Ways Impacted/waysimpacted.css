@@ -1,10 +1,11 @@
 * {
     box-sizing: border-box;
+    border: 5px #4F619B;
 }
 
 .navbar {
     width: 100%;
-    background-color: black;
+    background-color: #4F619B;
     overflow: auto;
 }
 
@@ -12,18 +13,30 @@
     float: left;
     text-align: center;
     padding: 12px;
-    color: grey;
-    font-family: cursive;
+    color: white;
+    font-family: serif;
     text-decoration: none;
     font-size: 17px;
     
 }
 
 .navbar a:hover {
-    background-color: white;
+    background-color: #DF7F7F;
 }
 
-.column{
-    column-count: 100px 3;
+.column {
+    float: left;
+    width: 32.8%;
+    font-family: serif;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
+#body{
+    background-color: #D6E1F0
 }
+  
