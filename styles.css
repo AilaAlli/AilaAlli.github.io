@@ -121,4 +121,18 @@ h2 {
       font-size: medium;
   }
 
-  
+  .button1{
+    border-style: double;
+    border-color: black;
+    border-width: large;
+    font-family: serif;
+    transition-duration: 0.4s;
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #4F619B;
+}
+
+.button1:hover {
+    background-color: #DF7F7F;
+}

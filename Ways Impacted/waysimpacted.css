@@ -40,3 +40,10 @@
     background-color: #D6E1F0
 }
   
+
+.carousel-inner {
+    height: 635px;
+    overflow: hidden;
+    border-color: black;
+    border-style: solid;
+}
